@@ -3,109 +3,158 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Insight2Impact (I2I Youth Lab)</title>
+  <title>Insight2Impact | I2I Youth Lab</title>
+  <meta name="description" content="Insight2Impact (I2I Youth Lab) is a premium youth STEM internship where students use data, code, mapping, and research to solve food insecurity and homelessness." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css" />
-  <script defer src="assets/script.js"></script>
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header" id="top">
     <nav class="nav container">
-      <a class="brand" href="index.html"><span>I2I</span> Youth Lab</a>
-      <button class="nav-toggle" aria-label="Open menu">☰</button>
+      <a class="brand" href="index.html" aria-label="Insight2Impact home">
+        <span class="brand-mark">I2I</span>
+        <span class="brand-text">Insight2Impact<br><small>Youth Lab</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
       <div class="nav-links">
-        <a href="program.html">Program</a>
-        <a href="registration.html">Register</a>
-        <a href="scholarship.html">Scholarship</a>
-        <a href="faq.html">Parent FAQ</a>
-        <a class="btn small" href="registration.html">Apply Now</a>
+        <a href="#programs">Programs</a>
+        <a href="#experience">Experience</a>
+        <a href="#outcomes">Outcomes</a>
+        <a href="faq.html">FAQ</a>
+        <a href="registration.html" class="nav-cta">Apply Now</a>
       </div>
     </nav>
   </header>
 
   <main>
     <section class="hero">
+      <div class="hero-bg"></div>
       <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">Data • STEM • Mapping • Community Impact</p>
-          <h1>Training the Next Generation of Data Analysts to Solve Food Insecurity and Homelessness</h1>
-          <p class="lead">Insight2Impact (I2I Youth Lab) is a high-impact youth internship where students use data analytics, programming, GIS mapping, and research to investigate real social crises and develop evidence-based solutions.</p>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Summer STEM Internship • Ages 13–18 • Beginner Friendly</p>
+          <h1>Data. Code. Maps. Real-World Impact.</h1>
+          <p class="hero-subtitle">A premium youth internship where students use Python, R, dashboards, GIS mapping, and research to investigate food insecurity, poverty, and homelessness risk — then present solutions like real analysts.</p>
           <div class="hero-actions">
-            <a class="btn" href="registration.html">Start Registration</a>
-            <a class="btn ghost" href="program.html">Explore Program</a>
+            <a href="registration.html" class="btn btn-primary">Start Registration</a>
+            <a href="#programs" class="btn btn-secondary">Explore Programs</a>
+          </div>
+          <div class="trust-row" aria-label="Program highlights">
+            <span>Real datasets</span><span>Portfolio projects</span><span>Capstone presentation</span>
           </div>
         </div>
-        <div class="hero-card">
-          <h2>Students don’t just learn STEM.</h2>
-          <p>They apply it to real datasets, real inequities, and real decision-making scenarios.</p>
-          <ul class="check-list">
-            <li>Food insecurity analysis</li>
-            <li>Homelessness risk mapping</li>
-            <li>Dashboards and reports</li>
-            <li>Final capstone briefing</li>
-          </ul>
+        <div class="hero-card reveal delay-1">
+          <div class="mock-window">
+            <div class="window-dots"><span></span><span></span><span></span></div>
+            <div class="dashboard-preview">
+              <div class="metric-card"><small>Access Gap</small><strong>42%</strong><em>priority zones</em></div>
+              <div class="metric-card"><small>Food Need</small><strong>18K</strong><em>residents mapped</em></div>
+              <div class="chart-bars"><span style="height:45%"></span><span style="height:70%"></span><span style="height:38%"></span><span style="height:88%"></span><span style="height:56%"></span></div>
+              <div class="map-dots"><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <p class="card-caption">Students build dashboards, maps, and briefing-ready recommendations.</p>
         </div>
       </div>
     </section>
 
-    <section class="section container">
-      <div class="section-title">
-        <p class="eyebrow">Why I2I Youth Lab</p>
-        <h2>A real internship model for young analysts</h2>
-      </div>
-      <div class="cards three">
-        <article class="card">
-          <div class="icon">📊</div>
-          <h3>Real Data Analytics</h3>
-          <p>Students analyze public, nonprofit, and government datasets to uncover patterns in poverty, food access, housing instability, and community need.</p>
-        </article>
-        <article class="card">
-          <div class="icon">💻</div>
-          <h3>Programming Skills</h3>
-          <p>Students are introduced to R, Python, spreadsheets, Tableau, and GIS tools used by analysts, evaluators, and data teams.</p>
-        </article>
-        <article class="card">
-          <div class="icon">🗺️</div>
-          <h3>Mapping Social Crisis</h3>
-          <p>Cohorts map cities, ZIP codes, and districts facing food insecurity, poverty, homelessness risk, and gaps in services.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="impact-band">
-      <div class="container impact-grid">
-        <div><strong>3–6</strong><span>Week summer internship</span></div>
-        <div><strong>$550</strong><span>Program cost per student</span></div>
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div><strong>3–6</strong><span>Week summer lab</span></div>
+        <div><strong>$550</strong><span>Program cost</span></div>
         <div><strong>2</strong><span>Community project tracks</span></div>
-        <div><strong>1</strong><span>Final capstone presentation</span></div>
+        <div><strong>1</strong><span>Professional capstone</span></div>
       </div>
     </section>
 
-    <section class="section container split">
-      <div>
-        <p class="eyebrow">Community Project Tracks</p>
-        <h2>Students work in cohorts to solve real problems</h2>
-        <p>Each cohort studies a community challenge, analyzes data, develops maps and dashboards, and presents recommendations as if briefing city leaders, nonprofits, and policymakers.</p>
-      </div>
-      <div class="track-list">
-        <div class="track"><h3>Food Insecurity Data Lab</h3><p>Analyze food access, poverty, FPL indicators, service gaps, and resource distribution opportunities.</p></div>
-        <div class="track"><h3>At-Risk of Homelessness Data Lab</h3><p>Study housing instability, homelessness risk, city and ZIP trends, and community prevention strategies.</p></div>
+    <section class="section" id="programs">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Choose your impact track</p>
+          <h2>Students solve community problems with industry tools.</h2>
+          <p>I2I Youth Lab blends technical training with real social impact, giving students a meaningful project they can explain with confidence.</p>
+        </div>
+        <div class="program-grid">
+          <article class="program-card reveal">
+            <div class="program-icon">🍎</div>
+            <h3>Food Insecurity Data Lab</h3>
+            <p>Analyze food access, poverty indicators, service gaps, and city/ZIP-level need to identify where resources could have the greatest impact.</p>
+            <ul>
+              <li>Food access mapping</li>
+              <li>FPL and community need analysis</li>
+              <li>Dashboard storytelling</li>
+            </ul>
+          </article>
+          <article class="program-card featured reveal delay-1">
+            <span class="badge">High Impact</span>
+            <div class="program-icon">🏙️</div>
+            <h3>At-Risk of Homelessness Data Lab</h3>
+            <p>Explore housing instability, homelessness risk, economic pressure, and neighborhood patterns using data visualization and research methods.</p>
+            <ul>
+              <li>City and district mapping</li>
+              <li>Risk indicator exploration</li>
+              <li>Policy-style recommendations</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="cta">
-      <div class="container cta-box">
-        <h2>Ready to turn insight into impact?</h2>
-        <p>Register for I2I Youth Lab or apply for a scholarship today.</p>
-        <a class="btn" href="registration.html">Register Now</a>
+    <section class="section dark-section" id="experience">
+      <div class="container split">
+        <div class="reveal">
+          <p class="eyebrow">The I2I experience</p>
+          <h2>Not a regular camp. A real analyst simulation.</h2>
+          <p>Students work in cohorts like a consulting team: cleaning data, building maps, discovering patterns, and presenting findings to a leadership-style audience.</p>
+          <a href="program.html" class="btn btn-light">View Full Program</a>
+        </div>
+        <div class="timeline reveal delay-1">
+          <div><span>01</span><h4>Learn the tools</h4><p>Excel, Python, R, Tableau concepts, GIS mapping, and research basics.</p></div>
+          <div><span>02</span><h4>Investigate the data</h4><p>Students analyze real public datasets and turn messy information into insight.</p></div>
+          <div><span>03</span><h4>Build the portfolio</h4><p>Dashboards, maps, research summaries, and final presentation materials.</p></div>
+          <div><span>04</span><h4>Present the solution</h4><p>Students brief findings like young data analysts speaking to city leaders.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="outcomes">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">What students gain</p>
+          <h2>Built for STEM confidence, college readiness, and leadership.</h2>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-card reveal"><span>💻</span><h3>Technical skills</h3><p>Python, R, data cleaning, exploratory analysis, and visualization foundations.</p></div>
+          <div class="feature-card reveal"><span>🗺️</span><h3>Mapping skills</h3><p>Students map cities, ZIP codes, districts, and neighborhood-level disparities.</p></div>
+          <div class="feature-card reveal"><span>📊</span><h3>Portfolio assets</h3><p>Dashboards, maps, research reports, and a final capstone presentation.</p></div>
+          <div class="feature-card reveal"><span>🎤</span><h3>Professional voice</h3><p>Students learn to communicate evidence, recommendations, and impact.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section reveal">
+      <div class="container cta-card">
+        <div>
+          <p class="eyebrow">Enrollment opening soon</p>
+          <h2>Build a portfolio that proves students can use data for good.</h2>
+          <p>Begin the registration process today. Scholarships are available for families who need support.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="registration.html" class="btn btn-primary">Register Now</a>
+          <a href="scholarship.html" class="btn btn-secondary">Apply for Scholarship</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container footer-grid">
-      <div><strong>Insight2Impact (I2I Youth Lab)</strong><p>Data-driven youth internship for solving real-world social challenges.</p></div>
-      <div><a href="program.html">Program</a><a href="registration.html">Registration</a><a href="scholarship.html">Scholarship</a><a href="faq.html">FAQ</a></div>
+      <div><strong>Insight2Impact</strong><p>I2I Youth Lab trains students to solve real-world social challenges with data, code, mapping, and research.</p></div>
+      <div><strong>Explore</strong><a href="program.html">Program</a><a href="registration.html">Registration</a><a href="scholarship.html">Scholarship</a><a href="faq.html">FAQ</a></div>
+      <div><strong>Contact</strong><p>Email: hello@i2iyouthlab.com</p><p>Domain: i2iyouthlab.com</p></div>
     </div>
   </footer>
+  <script src="assets/script.js"></script>
 </body>
 </html>
